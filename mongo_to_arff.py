@@ -7,8 +7,7 @@ OUT_FILE = 'stocks.arff'
 RELATION_NAME = 'stock_quotes_%s'
 
 ATTRIBUTES_TO_FETCH = ['LastPrice', 'High', 'Low', 'Open', 'Change',
-                       'ChangePercent', 'ChangeYTD', 'ChangePercentYTD',
-                       'Volume', 'MarketCap']
+                       'ChangeYTD', 'Volume', 'MarketCap']
 ALL_ATTRIBUTES = ATTRIBUTES_TO_FETCH + ['NextHigh', 'NextLow', 'NextVolume']
 
 c = pymongo.MongoClient('mongodb://localhost')
