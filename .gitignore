@@ -1,0 +1,7 @@
+*.pyc
+
+# virtualenv
+lib
+bin
+share
+include
